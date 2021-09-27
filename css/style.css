@@ -54,9 +54,13 @@ table {
 
 
 header{
-   background-image:url("../image/breakfast-image.jpeg") ;
-    height: 180px;
-    color:rgb(56, 24, 14);
+   background-image:url("../image/flat-lay-2583213_1920.jpg");
+    height: 140pxpx;
+    max-width:110%;
+    /* background-size: 900px; */
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    color:rgb(27, 8, 2);
     text-align: center;
 }
 
@@ -64,14 +68,36 @@ header{
 
 .header-name h3 {
     font-family:cursive;
-    font-size: 30px;
-    opacity:0.9 ;
+    font-size: 25px;
+    opacity:0.8 ;
     margin-top: 30px;
 }
 
 .header-name h2{
     font-family: sans-serif;
     font-size: 45px;
-    opacity:0.9 ;
-    padding-top: 25px;
+    opacity:0.8 ;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+
+.main-wrapper{
+    height:500px ;
+    /* background-color: rgb(252, 208, 208); */
+}
+
+
+.main-wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 241, 239);
+}
+
+.main-wrapper ul{
+    display: flex;
+    flex: 2;
+}
+
+.main-wrapper li{
+    font-size: 20px;
 }
