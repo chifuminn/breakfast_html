@@ -55,13 +55,15 @@ table {
 
 header{
    background-image:url("../image/flat-lay-2583213_1920.jpg");
-    height: 140pxpx;
-    max-width:110%;
+    height: 145px;
+    /* max-width:100%; */
     /* background-size: 900px; */
     background-repeat: no-repeat;
     /* object-fit: cover; */
     color:rgb(27, 8, 2);
     text-align: center;
+    border:5px inset #ffc0cb ;
+    /* position:fixed; */
 }
 
 
@@ -69,35 +71,38 @@ header{
 .header-name h3 {
     font-family:cursive;
     font-size: 25px;
-    opacity:0.8 ;
+    opacity:0.9;
     margin-top: 30px;
 }
 
 .header-name h2{
-    font-family: sans-serif;
+    font-family:cursive;
     font-size: 45px;
-    opacity:0.8 ;
+    opacity:0.9;
     /* margin-top: 20px; */
     padding-top: 20px;
 }
 
 .main-wrapper{
-    height:500px ;
-    /* background-color: rgb(252, 208, 208); */
+    height:670px;
+    background-color: rgb(226, 219, 219);
 }
 
 
 .main-wrapper h1{
     font-size: 30px;
     text-align: center;
-    color: rgb(243, 241, 239);
-}
-
-.main-wrapper ul{
-    display: flex;
-    flex: 2;
+    color: rgb(54, 53, 51);
+    padding-top:22px;
+    font-family: Georgia, serif;
 }
 
 .main-wrapper li{
-    font-size: 20px;
+    font-size:22px;
+    line-height:6;
+    font-family: Georgia, serif;
+}
+
+.food{
+    float:left;
 }
