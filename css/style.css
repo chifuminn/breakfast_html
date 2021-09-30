@@ -104,5 +104,12 @@ header{
 }
 
 .food{
-    float:left;
+   inline:block;
+   float:left;
 }
+
+.btn-wrapper{
+    height:200px;
+    background-color:papayawhip;
+}
+
