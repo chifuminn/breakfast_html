@@ -99,9 +99,22 @@ header{
 
 .main-wrapper li{
     font-size:22px;
-    line-height:6;
+    line-height:3;
     font-family: Georgia, serif;
+    text-align: center;
 }
+
+.container ul {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .container ul li {
+    width:50%;
+    margin-bottom: 2%;
+  }
 
 .food{
    inline:block;
@@ -113,3 +126,6 @@ header{
     background-color:papayawhip;
 }
 
+.twitter{
+
+}
