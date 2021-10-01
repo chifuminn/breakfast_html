@@ -124,8 +124,15 @@ header{
 .btn-wrapper{
     height:200px;
     background-color:papayawhip;
+    text-align:center;
 }
 
 .twitter{
-
+display:inline-block;
+background-color:skyblue;
+color:white ;
+font-size: 20px;
+padding:8px 24px ;
+margin-top:25px ;
+border-radius: 10px;
 }
