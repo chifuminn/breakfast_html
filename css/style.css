@@ -127,12 +127,23 @@ header{
     text-align:center;
 }
 
-.twitter{
-display:inline-block;
+.twitter{ 
+display: inline-block;
 background-color:skyblue;
 color:white ;
 font-size: 20px;
-padding:8px 24px ;
-margin-top:25px ;
-border-radius: 10px;
+padding:10px 30px ;
+margin-top:65px;
+border-radius: 10px; 
+box-shadow:0px 7px slateblue;
+}
+
+.twitter:hover{
+     opacity:1;
+}
+
+.twitter:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
 }
